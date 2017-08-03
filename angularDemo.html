@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/zTreeStyle/metro.css" />
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js" ></script>
+		<script type="text/javascript" src="js/angular.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.ztree.all-3.5.min.js" ></script>
+		<script type="text/javascript" src="js/angularDemo.js" ></script>
+	</head>
+	<body ng-app="myApp"> 
+		<div ng-controller="myCtrl">
+			1
+			<button ng-click="show()">showSelect</button>
+			<button ng-click="showA()">showA</button>
+			<button ng-click="showB()">showB</button>
+			<ul ztree id="tree" class="ztree" ng-model="selectNode" tree-data="dataset"></ul>
+			
+			{{selectNode}}
+		</div>
+	</body>
+</html>
