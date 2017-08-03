@@ -1,2 +1,2 @@
 
-# ztree是jquery的一款树形插件，这里的一个小demo是在在angular里使用该插件
+# ztree是jquery的一款树形插件，这里的一个小demo是在angular里使用该插件
